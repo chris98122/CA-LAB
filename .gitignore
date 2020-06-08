@@ -3,3 +3,5 @@
 *.xml
 *.iml
 *.lst
+GRAPHX/src/main/scala/META-INF/MANIFEST.MF
+GRAPHX/src/META-INF/MANIFEST.MF

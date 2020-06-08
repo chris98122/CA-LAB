@@ -8,6 +8,7 @@ object SSSP_wiki {
      * SparkConf包含了Spark集群的配置的各种参数
      */
     val conf = new SparkConf()
+      .setMaster("local") //启动本地化计算
       .setAppName("testRdd") //设置本程序名称
 
     //Spark程序的编写都是从SparkContext开始的
